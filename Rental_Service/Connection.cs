@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 namespace Rental_Service
 {
 
-    internal class connection
+    internal class Connection
     {
         public string connectionString;
         public MySqlConnection mySqlConn;
 
         // Constructor
-        public connection()
+        public Connection()
         {
-            connectionString = "server=127.0.0.1;user=root;database=cshark;password= ";
+            connectionString = "server=127.0.0.1;user=root;database=excursion_car_rentaldb;password= ";
             
         }
     }
