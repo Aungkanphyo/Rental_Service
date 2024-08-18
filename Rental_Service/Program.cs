@@ -16,11 +16,8 @@ namespace Rental_Service
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
             Application.Run(new Car_Manage());
-=======
             Application.Run(new Splash());
->>>>>>> 5dcf6958229073e84b7337af15eafcd39b4c7b0e
         }
     }
 }

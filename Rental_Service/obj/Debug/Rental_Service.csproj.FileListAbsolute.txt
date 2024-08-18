@@ -60,3 +60,5 @@ C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.exe
 C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.pdb
 C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.Login.resources
 >>>>>>> 5dcf6958229073e84b7337af15eafcd39b4c7b0e
+D:\Rental_Service\Rental_Service\obj\Debug\Rental_Service.Login.resources
+D:\Rental_Service\Rental_Service\obj\Debug\Rental_Service.Splash.resources
