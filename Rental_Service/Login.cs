@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,34 @@ namespace Rental_Service
         public Login()
         {
             InitializeComponent();
+        }
+        // Connection Obj Call
+        Connection con = new Connection();
+       
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            MySqlConnection conn = new MySqlConnection(con.connectionString);
+
+            try
+            {
+
+                
+                conn.Open();
+
+                MessageBox.Show("Success Connection");
+
+                conn.Close();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
     }
 }
