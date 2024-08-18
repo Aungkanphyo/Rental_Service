@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Rental_Service\Rental_Service\bin\Debug\Rental_Service.exe.config
 D:\Rental_Service\Rental_Service\bin\Debug\Rental_Service.exe
 D:\Rental_Service\Rental_Service\bin\Debug\Rental_Service.pdb
@@ -44,3 +45,18 @@ D:\Rental_Service\Rental_Service\obj\Debug\Rental_S.266A2E9E.Up2Date
 D:\Rental_Service\Rental_Service\obj\Debug\Rental_Service.exe
 D:\Rental_Service\Rental_Service\obj\Debug\Rental_Service.pdb
 D:\Rental_Service\Rental_Service\obj\Debug\Rental_Service.Car_Manage.resources
+=======
+C:\C # Project\Rental_Service\Rental_Service\bin\Debug\Rental_Service.exe.config
+C:\C # Project\Rental_Service\Rental_Service\bin\Debug\Rental_Service.exe
+C:\C # Project\Rental_Service\Rental_Service\bin\Debug\Rental_Service.pdb
+C:\C # Project\Rental_Service\Rental_Service\bin\Debug\Guna.UI.dll
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.csproj.AssemblyReference.cache
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.Properties.Resources.resources
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.Splash.resources
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.csproj.GenerateResource.cache
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.csproj.CoreCompileInputs.cache
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_S.266A2E9E.Up2Date
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.exe
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.pdb
+C:\C # Project\Rental_Service\Rental_Service\obj\Debug\Rental_Service.Login.resources
+>>>>>>> 5dcf6958229073e84b7337af15eafcd39b4c7b0e
