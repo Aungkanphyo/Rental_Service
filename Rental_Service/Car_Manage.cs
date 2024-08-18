@@ -27,6 +27,9 @@ namespace Rental_Service
             string query = "INSERT INTO excursion_car_rentaldb.testing (name) VALUES (@name)";
             MySqlCommand mySqlCommand = new MySqlCommand(query, pjConnect.mySqlConnection);
             mySqlCommand.Parameters.AddWithValue("@name",textBox1.Text);
+            mySqlCommand.ExecuteNonQuery();
+            pjConnect.CloseConnection();
+            MessageBox.Show("insert success");
         }
     }
 }
