@@ -1,5 +1,4 @@
-﻿using MySql.Data.MySqlClient;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,20 +15,6 @@ namespace Rental_Service
         public Car_Manage()
         {
             InitializeComponent();
-        }
-
-        private void SaveBtn(object sender, EventArgs e)
-        {
-            ProjectConnetion pjConnect = new ProjectConnetion();
-            // Ensure the connection is open
-            pjConnect.OpenConnection();
-
-            string query = "INSERT INTO excursion_car_rentaldb.testing (name) VALUES (@name)";
-            MySqlCommand mySqlCommand = new MySqlCommand(query, pjConnect.mySqlConnection);
-            mySqlCommand.Parameters.AddWithValue("@name",textBox1.Text);
-            mySqlCommand.ExecuteNonQuery();
-            pjConnect.CloseConnection();
-            MessageBox.Show("insert success");
         }
     }
 }
