@@ -35,6 +35,7 @@ namespace Rental_Service
         private void Splash_Load(object sender, EventArgs e)
         {
             timer1.Start();
+           /* Form1 conn=new Form1();*/
         }
     }
 }
